@@ -1,0 +1,3 @@
+# Infinite Loop Bug in TypeScript
+
+This repository demonstrates a common error in TypeScript where a seemingly simple function can lead to an infinite loop when provided with unexpected input. The `printNumbers` function uses a `for` loop to print numbers from 1 to `n`. However, if a negative number is passed as the argument, the loop condition `i <= n` will always be true, resulting in an infinite loop.
